@@ -78,7 +78,7 @@ BIO_CHIPS <- list(
   cold    = c("Antigen-presentation / IFN induction", "Innate agonists (STING / TLR)", "Radiation + ICB", "Vaccine combinations"),
   blocked = c("Anti-TGF-β", "Anti-angiogenic", "Stroma-directed combinations"),
   `no-kill`= c("LAG-3", "TIM-3", "TIGIT", "Effector cytokine support"))
-GAUGE_CAP <- "Each bar is the patient's standardized score for that layer versus the reference population (0 = reference median, in SD units; shaded band = typical range, the middle 50% of the reference). The lowest layer versus the reference is starred."
+GAUGE_CAP <- "Each bar is the patient's standardized score for that layer versus the reference population (0 = reference median, in SD units; shaded band = typical range, the middle 50% of the reference). The starred layer is the patient's relative weakest layer within the analyzed cohort (for a single uploaded sample, versus the reference)."
 RUO <- "Research use only. Investigational biomarker; not a validated clinical test. Does not replace approved biomarkers (PD-L1, TMB, MSI) or clinical judgment. Mechanistic rationale is hypothesis-generating, not a treatment recommendation."
 
 # ---- multi-format reader (CSV / TSV / Excel) --------------------------------
@@ -358,7 +358,7 @@ about_tab <- nav_panel(title = tagList(icon("circle-info"), " About"), value = "
         "",
         "**Execution** measures the shared cytotoxic machinery of **CD8 T cells and NK cells** (granzymes, perforin, granulysin, NKG7): it reflects their combined killing output and does not separate the two lineages.",
         "",
-        "The **lowest** layer relative to the reference is flagged for attention - the stage that reads weakest versus the reference population. (It marks where the cascade score is lowest, not a proven causal bottleneck.)",
+        "The patient's **relative weakest layer** is flagged for attention - the stage that reads lowest within the analyzed cohort (or versus the reference for a single uploaded sample). The archetype is a relative, population-dependent label, not a proven causal bottleneck; the continuous layer scores above are population-independent.",
         sep="\n")),
       card_header("One scale throughout"),
       markdown(paste(
@@ -367,7 +367,7 @@ about_tab <- nav_panel(title = tagList(icon("circle-info"), " About"), value = "
         "- **0** = the reference median.",
         "- Units are **standard deviations** of the reference.",
         "- The **shaded band** on each gauge is the *typical range* (middle 50% of the reference).",
-        "- The layer **left of the band** is flagged as the lowest versus the reference.",
+        "- A layer **left of the band** sits below the reference typical range; the starred layer is the patient's relative weakest layer within the analyzed cohort.",
         "",
         "Genes are colored by the same idea: <span style='color:#6A2C5A'>**plum = above the reference**</span>,",
         "<span style='color:#9C7A3E'>**gold = below**</span>. A filled square (black outline) marks a gene the score counts as \"on\".",
