@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use CascadeScope or the Immune Cascade Index (ICI), please cite this software and the accompanying manuscript."
+title: "CascadeScope: single-patient Immune Cascade Index (ICI) scoring"
+abstract: >-
+  A self-contained R/Shiny application that computes and visualizes the Immune
+  Cascade Index (ICI), a 98-gene, three-layer (Sensory, Integration, Execution)
+  transcriptomic read-out of the anti-tumor immune response to immune-checkpoint
+  blockade. Each tumor RNA-seq sample is self-normalized and scored against a
+  frozen, locked per-gene reference, so the score is deterministic and
+  cohort-independent for a single patient. Research use only.
+type: software
+authors:
+  - family-names: Mwamburi
+    given-names: Samuel
+  - family-names: Bedi
+    given-names: Deepa
+  - family-names: Huang
+    given-names: Fengyuan
+  - family-names: Yates
+    given-names: Clayton
+repository-code: "https://github.com/Kishaz/CascadeScope"
+url: "https://kishaz.github.io/CascadeScope/"
+license: MIT
+version: 1.0.0
+date-released: "2026-11-05"
+keywords:
+  - immunotherapy
+  - immune-checkpoint blockade
+  - transcriptomics
+  - RNA-seq
+  - predictive biomarker
+  - tumor immunology
+  - Immune Cascade Index

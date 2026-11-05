@@ -1,0 +1,24 @@
+{
+  "upload_type": "software",
+  "title": "CascadeScope: single-patient Immune Cascade Index (ICI) scoring",
+  "description": "CascadeScope is a self-contained R/Shiny application that computes and visualizes the Immune Cascade Index (ICI), a 98-gene, three-layer (Sensory, Integration, Execution) transcriptomic read-out of the anti-tumor immune response to immune-checkpoint blockade. Each tumor RNA-seq sample is self-normalized and scored against a frozen, locked per-gene reference, so the score is deterministic and cohort-independent for a single patient. Outputs include a per-patient report (archetype call, standardized-score gauge, cascade drill-down, 98-gene cascade tree), a cohort explorer, and version-stamped exports. Research use only: investigational, not a validated clinical test.",
+  "creators": [
+    {"name": "Mwamburi, Samuel"},
+    {"name": "Bedi, Deepa"},
+    {"name": "Huang, Fengyuan"},
+    {"name": "Yates, Clayton"}
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "immunotherapy",
+    "immune-checkpoint blockade",
+    "transcriptomics",
+    "RNA-seq",
+    "predictive biomarker",
+    "tumor immunology",
+    "Immune Cascade Index",
+    "R",
+    "Shiny"
+  ]
+}
