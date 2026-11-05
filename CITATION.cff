@@ -9,6 +9,7 @@ abstract: >-
   frozen, locked per-gene reference, so the score is deterministic and
   cohort-independent for a single patient. Research use only.
 type: software
+doi: 10.5281/zenodo.23980406
 authors:
   - family-names: Mwamburi
     given-names: Samuel

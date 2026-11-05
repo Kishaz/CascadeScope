@@ -15,6 +15,9 @@
   <a href="https://Kishaz.github.io/CascadeScope/">
     <img src="https://img.shields.io/badge/%E2%96%B6%20Launch%20app-in%20your%20browser-6A2C5A" alt="Launch CascadeScope in your browser">
   </a>
+  <a href="https://doi.org/10.5281/zenodo.23980406">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23980406.svg" alt="DOI">
+  </a>
 </p>
 
 ---
@@ -170,7 +173,11 @@ see [`SHARING.md`](SHARING.md).
 
 ## Citing & license
 
-If you use CascadeScope or the ICI, please cite the manuscript (citation to be added on publication).
+If you use CascadeScope or the Immune Cascade Index (ICI), please cite the archived software:
+
+> Mwamburi S, Bedi D, Huang F, Yates C. *CascadeScope: single-patient Immune Cascade Index (ICI) scoring.* Zenodo; 2026. https://doi.org/10.5281/zenodo.23980406
+
+The DOI above is the concept DOI and always resolves to the latest release; each version also has its own DOI. The accompanying manuscript citation will be added on publication.
 
 Released under the [MIT License](LICENSE). The bundled example data is a public IMvigor210 subset.
 
