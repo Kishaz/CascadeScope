@@ -46,7 +46,7 @@ frozen reference population:
 | **Execution** | cytotoxic effector output (CD8 T **and** NK) vs exhaustion | do the cells that got in *kill*? |
 
 Every score (layers, sub-modules, and individual genes) is reported on **one scale**: the
-**standardized score versus the reference** (0 = reference median, in SD units). The lowest layer is
+**standardized score versus the reference** (0 = reference mean, in SD units). The lowest layer is
 flagged for attention (it marks where the cascade reads weakest, **not** a proven causal bottleneck).
 
 ## How it works
